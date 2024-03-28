@@ -28,13 +28,16 @@ npm install @inertiajs/inertia @inertiajs/inertia-vue3
 npm install vue@latest vue-loader@latest
 npm install @vitejs/plugin-vue
 ====================================================
-Плагин для подсветки синтаксиса vue
+8) Плагин для подсветки синтаксиса vue
 intelliVue или org.jetbrains.plugins.vue
 ====================================================
+9)
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 npx tailwindcss init
 npm install -D postcss-import
 ====================================================
+10)
+composer require tightenco/ziggy
 ====================================================
 ====================================================
 ====================================================
