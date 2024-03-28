@@ -1,16 +1,39 @@
-
+Стек:
+Laravel, Vite, Vue, Inertia, TailWindCss
+====================================================
 1) composer create-project laravel/laravel .
-
 ====================================================
 2) https://github.com/gromr007/larainertia
 ====================================================
-Удаляем sale
+3) Удаляем sale
 composer remove laravel/sail
 ====================================================
+4) composer require inertiajs/inertia-laravel
 ====================================================
+5) php artisan inertia:middleware
 ====================================================
+6) Delete node_modules and package-lock.json
+Run the following command
+    npm cache clean --force
+The crucial step is to update your package.json file. Verify for any new versions of vite and laravel-vite-plugin and update their entries accordingly.
+    "type": "module",
+    "devDependencies": {
+        "laravel-vite-plugin": "^1.0.1",
+        "vite": "^5.0.11"
+    },
 ====================================================
+7)
+npm install
+npm install @inertiajs/inertia @inertiajs/inertia-vue3
+npm install vue@latest vue-loader@latest
+npm install @vitejs/plugin-vue
 ====================================================
+Плагин для подсветки синтаксиса vue
+intelliVue или org.jetbrains.plugins.vue
+====================================================
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npx tailwindcss init
+npm install -D postcss-import
 ====================================================
 ====================================================
 ====================================================
